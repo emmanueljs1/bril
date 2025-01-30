@@ -1,0 +1,7 @@
+@main {
+  one: int = const 1;
+.hello:
+  print one;
+.world:
+  print one;
+}
