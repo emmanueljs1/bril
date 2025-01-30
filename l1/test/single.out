@@ -1,0 +1,7 @@
+entry: 0
+exit: 0
+blocks:
+block: 0
+{"op":"const","dest":"one","type":"int","value":1}
+{"op":"print","args":["one"]}
+edges:

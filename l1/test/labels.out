@@ -1,0 +1,9 @@
+entry: 0
+exit: 1
+blocks:
+block: 0
+{"label":"start"}
+block: 1
+{"label":"end"}
+edges:
+0 -> 1

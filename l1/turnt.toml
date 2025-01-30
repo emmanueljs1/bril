@@ -1,2 +1,2 @@
-command = "bril2json < {filename} > {base}.json; dune exec l1 {base}.json | bril2txt"
+command = "bril2json < {filename} > {base}.json; dune exec l1 {base}.json; rm {base}.json"
 output.out = "-"
