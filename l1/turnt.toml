@@ -1,0 +1,2 @@
+command = "bril2json < {filename} > {base}.json; dune exec l1 {base}.json | bril2txt"
+output.out = "-"

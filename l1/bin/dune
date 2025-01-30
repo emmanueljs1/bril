@@ -1,0 +1,8 @@
+(executable
+ (public_name l1)
+ (name main)
+ (libraries l1 yojson))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
