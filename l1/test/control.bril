@@ -1,0 +1,11 @@
+@main {
+  one: int = const 1;
+  jmp .start;
+  print one;
+  ret;
+.start:
+  print one;
+  jmp .end;
+.end:
+  print one;
+}

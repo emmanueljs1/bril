@@ -1,0 +1,22 @@
+entry: 0
+exit: 4
+blocks:
+block: 0
+{"op":"const","dest":"one","type":"int","value":1}
+{"op":"jmp","labels":["start"]}
+block: 1
+{"op":"print","args":["one"]}
+{"op":"ret"}
+block: 2
+{"label":"start"}
+{"op":"print","args":["one"]}
+{"op":"jmp","labels":["end"]}
+block: 3
+{"label":"end"}
+{"op":"print","args":["one"]}
+block: 4
+edges:
+0 -> 2
+1 -> 4
+2 -> 3
+3 -> 4
