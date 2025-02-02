@@ -1,0 +1,11 @@
+{
+    "functions": [
+        {
+            "name":"main",
+            "args":[],
+            "instrs": [
+                {"op":"const","value":0,"dest":"zero","type":"int"},
+                {"op":"call","args":["zero"],"funcs":["f"],"labels":[]}
+            ]
+        }
+        ,{"name":"f","args":[{"name":"x","type":"int"}],"instrs":[]}]}

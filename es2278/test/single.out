@@ -2,6 +2,6 @@ entry: 0
 exit: 0
 blocks:
 block: 0
-{"op":"const","dest":"one","type":"int","value":1}
+{"op":"const","value":1,"dest":"one","type":"int"}
 {"op":"print","args":["one"]}
 edges:

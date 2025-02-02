@@ -1,0 +1,8 @@
+@main {
+  zero: int = const 0;
+  call @f zero;
+}
+
+@f(x: int) {
+
+}
